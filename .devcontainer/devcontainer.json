@@ -1,0 +1,20 @@
+{
+  "name": "Android",
+  "image": "mcr.microsoft.com/devcontainers/android:1",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21",
+      "installGradle": true,
+      "jdkDistro": "ms"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "mathiasfrohlich.Kotlin"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}
