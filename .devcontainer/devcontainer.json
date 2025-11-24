@@ -6,6 +6,6 @@
       "version": "21",
       "installGradle": "true"
     },
-    "ghcr.io/devcontainers/features/android-sdk:1": {}
+    "ghcr.io/akhildevelops/devcontainer-features/android-cli:0": {}
   }
 }
